@@ -1,3 +1,4 @@
 # SpenserBlog
 For My Beautiful One
-This is a project websit for my wife. For here blog posting pleasure!!
+This is a project for Code Louisville, but really for my wife. 
+For her blog posting pleasure!!
