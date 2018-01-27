@@ -1,13 +1,20 @@
 /* CSS Concerning Spenser Burlager */
-.main_heading {
-text-align: center
+.main_header {
+    text-align: center;
+    background-color: aquamarine;
+    padding: 1em;
 }
-
-
+.about_me {
+    text-align: center;
+}
+.main_footer{
+    text-align: center
+    background-color: aquamarine;
+}
+.container{
+    padding: 1em
+}
 /* This is for comments */
 
 
 /* Media Query */
-@media () min-width: 769px {
-
-}
