@@ -1,4 +1,19 @@
 /* CSS Concerning Spenser Burlager */
+
+/* ================================= 
+  Elements
+==================================== */
+*{
+    box-sizing: border-box;
+}
+body{
+
+
+}
+/* ================================= 
+  Class Selectors
+==================================== */
+
 .main_header {
     text-align: center;
     background-color: aquamarine;
@@ -8,13 +23,22 @@
     text-align: center;
 }
 .main_footer{
-    text-align: center
+    text-align: center;
     background-color: aquamarine;
 }
 .container{
-    padding: 1em
+   padding-left: 1em;
+   padding-right: 1em;
 }
-/* This is for comments */
 
+/* ================================= 
+  Media Query
+==================================== */
 
-/* Media Query */
+@media (min-width: 769px){
+    .container{
+    width: 70%;
+    max-width: 1000px;
+    margin: 0 auto;
+    }
+}
