@@ -17,7 +17,7 @@ body{
 .main_header {
     text-align: center;
     background-color: aquamarine;
-    padding: 1em;
+    padding: .5em;
 }
 .about_me {
     text-align: center;
@@ -36,6 +36,9 @@ body{
 ==================================== */
 
 @media (min-width: 769px){
+    .wrap {
+        min-height: 100vh;
+    }
     .container{
     width: 70%;
     max-width: 1000px;
