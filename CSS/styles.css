@@ -8,11 +8,14 @@
 }
 body{
 
-
 }
 /* ================================= 
   Class Selectors
 ==================================== */
+.name a,
+.main_nav a{
+    padding: 10px 10px;
+}
 
 .main_header {
     text-align: center;
@@ -20,6 +23,12 @@ body{
     padding: .5em;
 }
 .about_me {
+    text-align: center;
+}
+.feature_blog {
+    text-align: center;
+}
+.contact {
     text-align: center;
 }
 .main_footer{
@@ -37,11 +46,15 @@ body{
 
 @media (min-width: 769px){
     .wrap {
-        min-height: 100vh;
+        min-height: calc(100vh - 18.29px);
     }
     .container{
     width: 70%;
     max-width: 1000px;
     margin: 0 auto;
     }
+    .name,
+.main_nav li{
+    display: inline;
+}
 }
