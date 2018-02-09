@@ -6,7 +6,9 @@
 *{
     box-sizing: border-box;
 }
-
+body {
+    background-color: azure;
+}
 /* ================================= 
   Class Selectors
 ==================================== */
@@ -23,16 +25,57 @@
 }
 .about_me {
     text-align: center;
+    background-color: aliceblue;
 }
 .feature_blog {
     text-align: center;
+    background-color: aliceblue;
 }
 .contact {
     text-align: center;
+    background: aliceblue;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Pinterest */
+.fa-pinterest {
+    background: #55ACEE;
+    color: white;
+}
+/* Instagram */
+.fa-instagram {
+    background: #55ACEE;
+    color: white;
+}
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
 }
 .main_footer{
     text-align: center;
     background-color: aquamarine;
+    margin-top: 1em;
 }
 .container{
    padding-left: 1em;
@@ -56,5 +99,5 @@
     .main_nav li{
     display: inline-block
     }
-
+ 
 }
