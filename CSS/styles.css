@@ -1,5 +1,7 @@
 /* CSS Concerning Spenser Burlager */
 
+/* background-image: url("../images/spencouch.jpg"); */
+
 /* ================================= 
   Elements
 ==================================== */
@@ -7,7 +9,8 @@
     box-sizing: border-box;
 }
 body {
-    background-color: azure;
+    background-color: palegoldenrod;
+    text-align: center;
 }
 /* ================================= 
   Class Selectors
@@ -24,20 +27,22 @@ body {
     padding: .5em;
 }
 .about_me {
-    text-align: center;
-    background-color: aliceblue;
+    background-color: white;
 }
 .feature_blog {
-    text-align: center;
-    background-color: aliceblue;
+    background-color: white;
 }
 .feature_recipe {
-    text-align: center;
-    background-color: aliceblue;
+    background-color: white;
 }
-.contact {
+
+.feature_recipe ul{
+    list-style: none;
+    
+}
+.contact_me {
     text-align: center;
-    background: aliceblue;
+    background: white;
 }
 .fa {
     padding: 20px;
@@ -84,6 +89,7 @@ body {
 .container{
    padding-left: 1em;
    padding-right: 1em;
+   border: #55ACEE
 }
 
 /* ================================= 
@@ -92,16 +98,19 @@ body {
 
 @media (min-width: 769px){
     .wrap {
-        min-height: calc(100vh - 18.29px);
+        max-height: calc(100vh - 18.29px);
     }
     .container{
-    width: 70%;
-    max-width: 1000px;
-    margin: 0 auto;
+        text-align: left;
+        width: 80%;
+        max-width: 1000px;
+        margin: 0 auto;
     }
     .name,
     .main_nav li{
     display: inline-block
     }
- 
+    .col {
+       display: inline-block;
+    }
 }
