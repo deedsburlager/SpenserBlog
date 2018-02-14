@@ -29,7 +29,7 @@ body {
 }
 .main_header {
     text-align: center;
-    background-color: aquamarine;
+    background-color: #7fffd4;
     padding: .5em;
 }
 .about_me {
@@ -44,7 +44,14 @@ body {
 .feature_recipe {
     background-color: white;
 }
-
+    .directions{
+        background-color: blanchedalmond;
+        padding: 10px;
+    }
+    .ingredients{
+        background-color: blanchedalmond;
+        padding: 10px;
+    }
 .feature_recipe ul{
     list-style: none;
     
@@ -118,7 +125,7 @@ body {
     }
     .main_nav li{
         float: left;
-        margin-left: 4px;
+        margin-left: 10px;
 
     }
     .col {
