@@ -1,6 +1,6 @@
 /* CSS Concerning Spenser Burlager */
 
-/* background-image: url("../images/spencouch.jpg"); */
+/* background-image: url("../images/spencouch.jpg");*/
 
 /* ================================= 
   Elements
@@ -29,7 +29,8 @@ body {
 }
 .main_header {
     text-align: center;
-    background-color: #7fffd4;
+    background-color: blanchedalmond;
+    box-shadow: 0 1px 4px rgba(0,0,0,.4);
     padding: .5em;
 }
 .about_me {
@@ -64,7 +65,7 @@ body {
 }
 .main_footer{
     text-align: center;
-    background-color: aquamarine;
+    background-color: blanchedalmond;
     margin-top: 1em;
 }
 .container{
@@ -108,12 +109,20 @@ body {
 ==================================== */
 
 @media (min-width: 769px){
+    .main_header{
+        position: fixed;
+        background: blanchedalmond;
+        width: 100%;
+        top:0;
+        z-index: 100;
+    }
+    
     .wrap {
         max-height: calc(100vh - 18.29px);
     }
-    .container{
+       .container{
         text-align: left;
-        width: 80%;
+        width: 90%;
         max-width: 1000px;
         margin: 0 auto;
     }
@@ -130,6 +139,8 @@ body {
     }
     .col {
         display: inline-block;
+        padding-left: 1em;
+        padding-right: 1em;
      }
     .feature_blog{
         float: left;
@@ -142,9 +153,19 @@ body {
     .connect{
         clear: both;
     }
+}
+
+/* Clearfix */
 .clearfix::after{
     content: "";
     display: table;
     clear: both;
     }
+
+@media (min-width: 1025px){
+    .container{
+        width: 80%;
+        max-width: 1150px;
+    }
+
 }
