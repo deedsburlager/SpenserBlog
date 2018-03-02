@@ -54,17 +54,17 @@ body {
     box-shadow: 0 1px 4px rgba(0,0,0,.4);
     padding: .5em;
 }
-.about_me {
+.primary {
     background-color:blanchedalmond;
     border: 1px solid aquamarine;
     box-shadow: 0 1px 4px rgba(0,0,0,.4);
     padding: 15px;
     
 }
-.feature_blog {
+.secondary {
     background-color: white;
 }
-.feature_recipe {
+.tertiary {
     background-color: white;
 }
     .directions{
@@ -79,7 +79,7 @@ body {
         padding: 10px;
         color: white;
     }
-.feature_recipe ul{
+.tertiary ul{
     list-style: none;
     
 }
@@ -192,11 +192,11 @@ body {
         padding-left: 1em;
         padding-right: 1em;
      }
-    .feature_blog{
+    .secondary{
         float: left;
         width: 49%;
     }
-    .feature_recipe{
+    .tertiary{
         float: right;
         width: 49%;
     }
