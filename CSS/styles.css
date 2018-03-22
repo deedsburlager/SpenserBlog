@@ -14,12 +14,13 @@ ___________.__                                __
     box-sizing: border-box;
 }
 a{
-    color: white;
+    color:aquamarine;
     box-shadow: 0px 1px 5px white;
     text-decoration: none;
 }
 a:hover{
     text-decoration: underline;
+    color: white;
 }
 a:active{
     box-shadow: none;
@@ -87,8 +88,8 @@ body {
     text-align: center;
     background: blanchedalmond;
     box-shadow: 0 1px 4px rgba(0,0,0,.4);
-    color: white;
-    padding: 15px;
+    padding-bottom: 15px;
+    
 }
 .form_subscribe{
     text-align: center;
