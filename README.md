@@ -17,4 +17,14 @@ These classes take use of the 'float' attribute. Here I was able to make the sit
 
 The JavaScript Functions is....
 
-1. 
+1. the navagation bar. 
+```
+function myFunction(){
+    var x = document.getElementById("myNav");
+    if (x.className === "main_nav"){
+        x.className += "responsive";
+    }else{
+        x.className = "main_nav"
+    }
+}
+```
