@@ -14,13 +14,13 @@ ___________.__                                __
     box-sizing: border-box;
 }
 a{
-    color:aquamarine;
-    box-shadow: 0px 1px 5px white;
+    color:grey;
+    box-shadow: 0px 1px 5px grey;
     text-decoration: none;
 }
 a:hover{
     text-decoration: underline;
-    color: white;
+    color: aquamarine;
 }
 a:active{
     box-shadow: none;
@@ -43,7 +43,7 @@ body {
 }
 .name a,
 .main_nav a{
-    padding: 4px 4px;
+    padding: 10px 10px;
     display: block;
 }
 .main_nav li{
@@ -60,7 +60,6 @@ body {
     border: 1px solid aquamarine;
     box-shadow: 0 1px 4px rgba(0,0,0,.4);
     padding: 15px;
-    
 }
 .secondary {
     background-color: white;
@@ -72,13 +71,13 @@ body {
         background-color: blanchedalmond;
         box-shadow: 0 1px 4px rgba(0,0,0,.4);
         padding: 10px;
-        color: white;
+        color: gray;
     }
     .ingredients{
         background-color: blanchedalmond;
         box-shadow: 0 1px 4px rgba(0,0,0,.4);
         padding: 10px;
-        color: white;
+        color: grey;
     }
 .tertiary ul{
     list-style: none;
@@ -94,14 +93,16 @@ body {
 .form_subscribe{
     text-align: center;
     background: blanchedalmond;
-    color: white;
+    box-shadow: 0 1px 4px rgba(0,0,0,.4);
+    color: grey;
     padding: 15px;
     margin-top: 25px;
+    margin-bottom: 20px;
 }
 .main_footer{
     text-align: center;
     background-color: blanchedalmond;
-    color: white;
+    color: grey;
     margin-top: 1em;
 }
 .container{
