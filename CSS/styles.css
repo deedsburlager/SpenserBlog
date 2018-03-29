@@ -15,11 +15,11 @@ ___________.__                                __
 }
 a{
     color:grey;
+    padding: .25em;
     box-shadow: 0px 1px 5px grey;
     text-decoration: none;
 }
 a:hover{
-    text-decoration: underline;
     color: aquamarine;
 }
 a:active{
@@ -37,17 +37,33 @@ body {
 /_______  /\___  >____/\___  >\___  >__|  \____/|__|  /____  >   \/\_/   / /      \___  >____(____  /____  >____  >
         \/     \/          \/     \/                       \/            \/           \/          \/     \/     \/ 
 ==================================== */
-.name{
-    font-size: 2em;
-    margin:0;
+.main_nav{
+background-color: blanchedalmond;
+overflow: hidden;
 }
-.name a,
-.main_nav a{
-    padding: 10px 10px;
+.main_nav a:not(:first-child)
+{display:none;
+}
+
+.main_nav{
+color: gray;
+padding: 10px 10px;
+text-decoration: none;
+font-size: 2em;
+}
+.main_nav a.icon{
+    float: right;
     display: block;
 }
-.main_nav li{
-    list-style-type: none;
+.main_nav.responsive {position: relative;}
+.main_nav.responsive a.icon{
+    position: absolute;
+  
+}
+.topnav.responsive a{
+    float:none;
+    display: block;
+    text-align: left;
 }
 .main_header {
     text-align: center;
@@ -86,8 +102,10 @@ body {
 .connect {
     text-align: center;
     background: blanchedalmond;
+    color: grey;
     box-shadow: 0 1px 4px rgba(0,0,0,.4);
     padding-bottom: 15px;
+    padding-top: 10px;
     
 }
 .form_subscribe{
@@ -160,7 +178,7 @@ body {
  '----------------'  '----------------'  '----------------'  '----------------'  '----------------'   '----------------'  '----------------'  '----------------'  '----------------'  '----------------' 
 ==================================== */
 
-@media (min-width: 769px){
+@media (min-width: 698px){
     .main_header{
         position: fixed;
         background: blanchedalmond;
@@ -168,7 +186,22 @@ body {
         top:0;
         z-index: 100;
     }
-    
+    .main_nav a:first-child{
+        display:block;
+        float: left;
+    }
+    .main_nav a:not(:first-child){
+        display:block;
+        float:left;
+        text-align: center;
+        padding: 1em;
+        text-decoration: none;
+        font-size: 12px;
+        margin-left: 1em;
+    }
+    .main_nav a:last-child{
+        display: none;
+    }
     .wrap {
         max-height: calc(100vh - 18.29px);
     }
@@ -177,17 +210,6 @@ body {
         width: 90%;
         max-width: 1000px;
         margin: 0 auto;
-    }
-    .name{
-        float: left;
-    }
-    .main_nav{
-        float: right;
-    }
-    .main_nav li{
-        float: left;
-        margin-left: 10px;
-
     }
     .col {
         display: inline-block;
