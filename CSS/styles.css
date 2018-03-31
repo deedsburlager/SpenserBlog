@@ -56,6 +56,8 @@ font-size: 2em;
 .main_nav.responsive {position: relative;}
 .main_nav.responsive a.icon{
     position: absolute;
+    right: 0;
+    top: 0;
   
 }
 .topnav.responsive a{
@@ -102,6 +104,7 @@ font-size: 2em;
     background: blanchedalmond;
     color: grey;
     box-shadow: 0 1px 4px rgba(0,0,0,.4);
+    margin-top: 10px;
     padding-bottom: 15px;
     padding-top: 10px;
     
