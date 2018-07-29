@@ -1,0 +1,26 @@
+{
+  "name": "spenserblog",
+  "version": "1.0.0",
+  "description": "View me @ https://deedsburlager.github.io/SpenserBlog/\r For My Beautiful One\r This is a project for Code Louisville, but really for my wife. \r For her blog posting pleasure!!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deedsburlager/SpenserBlog.git"
+  },
+  "author": "deeds burlager",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deedsburlager/SpenserBlog/issues"
+  },
+  "homepage": "https://github.com/deedsburlager/SpenserBlog#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.5"
+  }
+}
